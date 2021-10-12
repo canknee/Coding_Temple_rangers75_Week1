@@ -1,0 +1,111 @@
+.container{
+    margin: auto;
+}
+
+.mainbox{
+    display:flex;
+    justify-content: center;
+    border-style:solid;
+    border-color: lightgray;
+    border-width: 1px;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 4px;
+    padding-bottom: 20px;
+}
+
+.continuebox {
+    display:flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 3px;
+    background-color: orange;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.signin{
+    font-size: 28px;
+}
+
+.needhelp{
+    font-size: 13px;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+
+.row2{
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.email{
+    font-size:12px;
+}
+
+.password{
+    display: flex;
+    font-size:12px;
+    /* margin-left:30px; if the tab is intentional*/
+}
+
+.forgotpassword{
+    display: flex;
+    font-size:12px;
+}
+
+.form{
+    display: flex;
+}
+
+.newtoamazon{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: grey;
+}
+
+.createbutton{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 3px;
+    background-color: lightgray;
+    margin-left: 565px;
+    margin-right: 565px;
+    padding: 3px;
+}
+
+#hrnew {
+    border: none;
+    border-top: 1px solid rgb(153, 147, 147);
+    color: grey;
+    overflow: visible;
+    text-align: center;
+    margin-left: 560px;
+    margin-right: 560px;
+    font-size: 13px;
+}
+
+#hrnew:after {
+    background: #fff;
+    content: 'New To Amazon?';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+*{
+    font-family: sans-serif
+}
