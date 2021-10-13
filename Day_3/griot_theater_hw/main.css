@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.month{
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightsteelblue;
+    width: 100%;
+    background-color: lightsteelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.centertext {
+    font-size: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer{
+    display: flex;
+    background: black;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rowfooter {
+    display: flex;
+    background: black;
+    padding: 20px;
+}
+
+.col1 {
+    display: flex;
+    color: #eee;
+}
+
+.col2 {
+    display: flex;
+    color: #eee;
+}
+
+.col3 {
+    display: flex;
+    color: #eee;
+}

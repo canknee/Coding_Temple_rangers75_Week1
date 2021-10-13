@@ -1,0 +1,45 @@
+/* body {
+    background-color: indigo;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "adidas apple amazon beatsbydre"
+        "adidas apple amazon beatsbydre";
+    margin-top: 10vh;
+}
+
+.adidas {
+    grid-area: adidas;
+}
+
+.apple {
+    grid-area: apple;
+}
+
+.amazon {
+    grid-area: amazon;
+}
+
+.beatsbydre {
+    grid-area: beatsbydre;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Grouping the 4 grid area classes together */
+.adidas, .apple, .amazon, .beatsbydre {
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+    border: 1px solid #eee;
+}
